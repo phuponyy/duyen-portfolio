@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "activeClass": "",
+        "icon": "1.png",
+        "thumbFull": "digital-marketing.jpg",
+        "title": "Content Creator",
+        "text": "Develop and manage multi-platform content (Facebook, TikTok, YouTube, Zalo OA…). Plan, organize, and optimize content to ensure consistency and effectiveness across channels.",
+        "btnText": "Read More",
+        "delay": "100ms"
+    },
+    {
+        "id": 2,
+        "activeClass": "active",
+        "icon": "2.png",
+        "thumbFull": "app-development.jpg",
+        "title": "SEO Content",
+        "text": "Conduct keyword research and analyze search trends (Ahrefs, Google Trends), optimize content outlines, and implement SEO-optimized articles to enhance visibility and reach the right target audience.",
+        "btnText": "Read More",
+        "delay": "200ms"
+    },
+    {
+        "id": 3,
+        "activeClass": "",
+        "icon": "3.png",
+        "thumbFull": "ui-ux-design.jpg",
+        "title": "Design",
+        "text": "Design communication materials using Canva, ensuring visual consistency and alignment with brand identity and messaging.",
+        "btnText": "Read More",
+        "delay": "400ms"
+    },
+    {
+        "id": 4,
+        "activeClass": "",
+        "icon": "4.png",
+        "thumbFull": "web-design.jpg",
+        "title": "Other skills",
+        "text": "Possess additional supporting skills such as basic video editing, livestreaming, event coordination, and website design, enabling flexibility in content execution and operations.",
+        "btnText": "Read More",
+        "delay": "600ms"
+    }
+]

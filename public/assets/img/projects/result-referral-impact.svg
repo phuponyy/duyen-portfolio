@@ -1,0 +1,40 @@
+<svg width="1200" height="660" viewBox="0 0 1200 660" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="660" rx="24" fill="#FFFFFF"/>
+  <rect x="1.5" y="1.5" width="1197" height="657" rx="22.5" stroke="#D9DEE7" stroke-width="3"/>
+  <text x="52" y="82" fill="#3D4B63" font-family="Arial, sans-serif" font-size="26">Social referrals helped push traffic from the Fanpage to external destinations.</text>
+  <text x="52" y="126" fill="#3D4B63" font-family="Arial, sans-serif" font-size="26">Facebook-driven sessions remained one of the strongest acquisition sources.</text>
+
+  <rect x="52" y="170" width="1096" height="420" rx="18" fill="#F9FBFD" stroke="#E0E7F0"/>
+
+  <g transform="translate(90 220)">
+    <rect width="340" height="300" rx="16" fill="#FFFFFF" stroke="#DCE6F2"/>
+    <text x="22" y="34" fill="#70819C" font-family="Arial, sans-serif" font-size="16">Top referral channels</text>
+    <rect x="22" y="58" width="296" height="38" rx="8" fill="#FFF4E8" stroke="#FF9F43"/>
+    <text x="34" y="82" fill="#56677F" font-family="Arial, sans-serif" font-size="15">m.facebook.com / referral</text>
+    <text x="256" y="82" fill="#D97706" font-family="Arial, sans-serif" font-size="15" font-weight="700">8.8K</text>
+    <rect x="22" y="106" width="296" height="38" rx="8" fill="#F5F8FC"/>
+    <text x="34" y="130" fill="#56677F" font-family="Arial, sans-serif" font-size="15">facebook.com / referral</text>
+    <text x="266" y="130" fill="#2F415D" font-family="Arial, sans-serif" font-size="15" font-weight="700">141</text>
+    <rect x="22" y="154" width="296" height="38" rx="8" fill="#F5F8FC"/>
+    <text x="34" y="178" fill="#56677F" font-family="Arial, sans-serif" font-size="15">google / organic</text>
+    <text x="264" y="178" fill="#2F415D" font-family="Arial, sans-serif" font-size="15" font-weight="700">12</text>
+    <rect x="22" y="202" width="296" height="38" rx="8" fill="#F5F8FC"/>
+    <text x="34" y="226" fill="#56677F" font-family="Arial, sans-serif" font-size="15">l.facebook.com / referral</text>
+    <text x="258" y="226" fill="#2F415D" font-family="Arial, sans-serif" font-size="15" font-weight="700">6.5K</text>
+  </g>
+
+  <g transform="translate(466 220)">
+    <rect width="596" height="300" rx="16" fill="#FFFFFF" stroke="#DCE6F2"/>
+    <text x="22" y="34" fill="#70819C" font-family="Arial, sans-serif" font-size="16">Referral trend</text>
+    <line x1="22" y1="248" x2="560" y2="248" stroke="#D9E2EF"/>
+    <line x1="22" y1="198" x2="560" y2="198" stroke="#EEF3F8"/>
+    <line x1="22" y1="148" x2="560" y2="148" stroke="#EEF3F8"/>
+    <line x1="22" y1="98" x2="560" y2="98" stroke="#EEF3F8"/>
+    <path d="M34 238 C 78 236, 118 232, 156 210 S 234 120, 284 112 S 358 250, 420 138 S 506 92, 548 164" stroke="#4CA9E8" stroke-width="6" fill="none"/>
+    <path d="M34 244 C 92 242, 146 240, 198 236 S 316 232, 548 238" stroke="#A7D38B" stroke-width="4" fill="none"/>
+    <circle cx="548" cy="164" r="6" fill="#4CA9E8"/>
+    <circle cx="548" cy="238" r="6" fill="#A7D38B"/>
+    <text x="34" y="278" fill="#4CA9E8" font-family="Arial, sans-serif" font-size="14" font-weight="700">Facebook referrals</text>
+    <text x="184" y="278" fill="#88BB68" font-family="Arial, sans-serif" font-size="14" font-weight="700">returning users</text>
+  </g>
+</svg>

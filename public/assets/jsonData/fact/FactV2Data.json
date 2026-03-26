@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "title": "Content Writing",
+        "end": 95,
+        "icon": "1.png",
+        "delay": "0ms"
+    },
+    {
+        "id": 2,
+        "title": "Social Media Management",
+        "end": 90,
+        "icon": "twitter.png",
+        "delay": "100ms"
+    },
+    {
+        "id": 3,
+        "title": "Design (Canva)",
+        "end": 80,
+        "icon": "canva.svg",
+        "delay": "200ms"
+    },
+    {
+        "id": 4,
+        "title": "Livestream Hosting",
+        "end": 70,
+        "icon": "4.png",
+        "delay": "300ms"
+    },
+    {
+        "id": 5,
+        "title": "Photo & Video Editing",
+        "end": 65,
+        "icon": "photoshop.png",
+        "delay": "400ms"
+    },
+    {
+        "id": 6,
+        "title": "SEO & Keyword Research",
+        "end": 70,
+        "icon": "6.png",
+        "delay": "500ms"
+    },
+    {
+        "id": 7,
+        "title": "Data Analysis",
+        "end": 60,
+        "icon": "7.png",
+        "delay": "600ms"
+    },
+    {
+        "id": 8,
+        "title": "Communication & Teamwork",
+        "end": 85,
+        "icon": "8.png",
+        "delay": "700ms"
+    }
+]

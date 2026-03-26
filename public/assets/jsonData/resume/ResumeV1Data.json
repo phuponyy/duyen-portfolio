@@ -1,0 +1,53 @@
+[
+    {
+        "id": 1,
+        "sectionTitle": "My Expertise",
+        "items": [
+            {
+                "id": 101,
+                "title": "Marketing Executive",
+                "animation": "animate__animated animate__fadeInUp",
+                "organization": "Move Sync Company Limited",
+                "duration": "7/2025 - Present",
+                "description": "Managed all of the company's social media platforms (2 Fanpages, YouTube, TikTok, Zalo OA)<br /><br /><ul><li>Built and developed 2 sports Fanpages to 10K &amp; 15K followers, ~15M monthly views</li><li>Grew YouTube to ~4K subscribers via short videos (400+ videos, 3.5M+ total views)</li><li>Created <strong>3-5 short video scripts daily</strong></li><li>Researched, designed, and wrote content for 2 Fanpages <strong>(2-3 posts/ day/ page)</strong></li></ul><br /><div>Designed event media assets</div><div>Managed 3 seeding collaborators (in-app engagement)</div><div>Supported SEO (content distribution &amp; user growth)</div>"},
+            {
+                "id": 102,
+                "title": "Marketing intern",
+                "animation": "animate__animated animate__fadeInUp Web Developer",
+                "organization": "APIS Corporation",
+                "duration": "12/2024 - 5/2025",
+                "description": "<ul><li><strong>Manage two Fanpages</strong> - Vico Fresh (86K Follower) and Bonali F&amp;B (6,8K Follower): <strong>Plan</strong> communication strategies, <strong>create content</strong>, <strong>design visuals</strong>, and respond to customer messages and interactions;</li><li>Develop <strong>livestream scripts</strong>, <strong>set up and host livestream</strong> to promote and sell FMCG products;</li><li><strong>Design</strong> company <strong>websites</strong> for APIS and AIG on <em>Haravan</em>;</li><li><strong>Manage merchandise, set up displays, and take photos</strong> before, during, and after trade fairs and exhibitions.</li></ul>"
+            },
+            {
+                "id": 103,
+                "title": "Content SEO intern",
+                "animation": "animate__animated animate__fadeInUp",
+                "organization": "Mobile World Investment Corporation",
+                "duration": "8/2023 - 5/2024",
+                "description": "<ul><li><strong>Research keywords</strong> using tools such as <em>Ahrefs</em> and <em>Google Trends</em>,...;</li><li><strong>Create article outlines</strong> and <strong>write optimized content</strong> for SEO;</li><li><strong>Design</strong> article images and thumbnails, <strong>review</strong> contributor articles and perform <strong>on-page SEO</strong>.</li></ul>"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "sectionTitle": "Education Background",
+        "items": [
+            {
+                "id": 201,
+                "title": "Marketing",
+                "animation": "animate__animated animate__fadeInUp",
+                "organization": "Ton Duc Thang University",
+                "duration": "2021 - 2025",
+                "description": "<ul><li>Bachelor's Degree in <strong>Marketing</strong></li><li>GPA: <strong>3.32/4</strong></li></ul>"
+            },
+            {
+                "id": 202,
+                "title": "Certificate",
+                "animation": "animate__animated animate__fadeInUp Course",
+                "organization": "Ton Duc Thang University",
+                "duration": "2021 - 2025",
+                "description": "<ul><li>Microsoft Office Specialist Word, Excel</li><li>Aptis: B1</li></ul>"
+            }
+        ]
+    }
+]
