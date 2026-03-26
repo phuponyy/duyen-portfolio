@@ -3,8 +3,6 @@ import { useEffect, useState } from 'react';
 import Image from 'next/image';
 import shape3 from "@/assets/img/shape/3.png"
 import shape8 from "@/assets/img/shape/8.png"
-import about1 from "@/assets/img/about/1.jpg"
-import about2 from "@/assets/img/about/2.jpg"
 import Link from 'next/link';
 import FactV1 from '../fact/FactV1';
 import gsap from 'gsap';

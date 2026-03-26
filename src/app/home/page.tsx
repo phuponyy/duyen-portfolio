@@ -1,17 +1,14 @@
 import AboutV1 from '@/components/about/AboutV1';
 import BannerV1 from '@/components/banner/BannerV1';
-import BlogV1 from '@/components/blog/BlogV1';
 import ContactV1 from '@/components/contact/ContactV1';
 import FactV1 from '@/components/fact/FactV2';
 import FaqV1 from '@/components/faq/FaqV1';
 import LayoutV1 from '@/components/Layouts/LayoutV1';
 import PartnerV1 from '@/components/partner/PartnerV1';
 import PortfolioV1 from '@/components/portfolio/PortfolioV1';
-import PriceV1 from '@/components/price/PriceV1';
 import PromoV1 from '@/components/promo/PromoV1';
 import ResumeV1 from '@/components/resume/ResumeV1';
 import ServicesV1 from '@/components/services/ServicesV1';
-import TestimonialV1 from '@/components/testimonial/TestimonialV1';
 
 export const metadata = {
     title: "Duyen"

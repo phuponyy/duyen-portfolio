@@ -1,9 +1,7 @@
 "use client"
 import ServicesData from "@/assets/jsonData/services/ServicesData.json"
 import Image from "next/image";
-import Link from "next/link";
 import { useState } from "react";
-import arrow from "@/assets/img/icon/arrow.png";
 
 interface DataType {
     sectionClass?: string;
