@@ -15,7 +15,7 @@ const FaqV1 = () => {
                                 <div className="chat-card">
                                     <p>{`Can't find what your are loking for you?`}</p>
                                     <h5>I would like to chat with you</h5>
-                                    <Link href="#" scroll={false}><i className="fab fa-facebook-messenger" /></Link>
+                                    <Link href="https://zalo.me/84854644787" scroll={false}><i className="fab fa-facebook-messenger" /></Link>
                                     <Image src={shape12} alt="Image Not Found" />
                                 </div>
                             </div>
