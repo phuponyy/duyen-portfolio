@@ -147,7 +147,7 @@ const ProjectDetailsContent = ({
       ? details.description
       : [];
   const resultsHeading = details?.resultsHeading || "Results";
-  const challengesHeading = details?.challengesHeading || "Challenges";
+  const challengesHeading = details?.challengesHeading || "Publications";
   const solutionHeading = details?.solutionHeading || "Solution";
   const results: ProjectResultItem[] =
     details?.results && details.results.length > 0
