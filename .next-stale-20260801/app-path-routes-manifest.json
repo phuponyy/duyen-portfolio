@@ -1,0 +1,16 @@
+{
+  "/_not-found/page": "/_not-found",
+  "/[...not-found]/page": "/[...not-found]",
+  "/page": "/",
+  "/blog-with-sidebar/page": "/blog-with-sidebar",
+  "/contact/page": "/contact",
+  "/blog-single-with-sidebar/[id]/page": "/blog-single-with-sidebar/[id]",
+  "/home-dark/page": "/home-dark",
+  "/resume/page": "/resume",
+  "/pricing/page": "/pricing",
+  "/home/page": "/home",
+  "/projects/page": "/projects",
+  "/project-details/[id]/page": "/project-details/[id]",
+  "/services-details/[id]/page": "/services-details/[id]",
+  "/service/page": "/service"
+}

@@ -18,6 +18,7 @@ interface ProjectDetailData {
   followers?: string;
   field?: string;
   postingFrequency?: string;
+  descriptionIntro?: string;
   description?: string[];
   gallery?: string[];
   background?: string[];
@@ -30,7 +31,7 @@ interface ProjectDetailData {
 
 interface ProjectResultItem {
   title?: string;
-  text: string;
+  text?: string;
   image?: string;
 }
 
@@ -58,7 +59,7 @@ interface ProjectSingleProps {
   totalProject: number;
 }
 
-const renderFormattedText = (text: string) => {
+const renderFormattedText = (text = "") => {
   const lines = text.split(/<br\s*\/?>/i);
 
   return lines.map((line, lineIndex) => (
@@ -146,6 +147,7 @@ const ProjectDetailsContent = ({
     details?.description && details.description.length > 0
       ? details.description
       : [];
+  const descriptionIntro = details?.descriptionIntro || "";
   const resultsHeading = details?.resultsHeading || "Results";
   const challengesHeading = details?.challengesHeading || "Publications";
   const solutionHeading = details?.solutionHeading || "Solution";
@@ -173,7 +175,8 @@ const ProjectDetailsContent = ({
       : [];
   const challengeList = details?.challengeList || [];
   const challengeTitle = details?.challengeTitle || "";
-  const hasTopInfo = infoItems.length > 0 || description.length > 0;
+  const hasTopInfo =
+    infoItems.length > 0 || descriptionIntro.length > 0 || description.length > 0;
   const detailSections: ProjectDetailSection[] =
     details?.detailSections && details.detailSections.length > 0
       ? details.detailSections.filter(
@@ -182,7 +185,7 @@ const ProjectDetailsContent = ({
             Array.isArray(section?.items) &&
             section.items.length > 0,
         )
-      : [
+      : ([
           results.length > 0
             ? {
                 heading: resultsHeading,
@@ -205,7 +208,9 @@ const ProjectDetailsContent = ({
                 items: solution.map((text) => ({ text })),
               }
             : null,
-        ].filter((section): section is ProjectDetailSection => section !== null);
+        ] as Array<ProjectDetailSection | null>).filter(
+          (section): section is ProjectDetailSection => section !== null,
+        );
 
   return (
     <>
@@ -246,16 +251,19 @@ const ProjectDetailsContent = ({
                     </div>
                   </div>
                 )}
-                {description.length > 0 && (
+                {(descriptionIntro.length > 0 || description.length > 0) && (
                   <div
                     className={`${infoItems.length > 0 ? "right-info col-xl-8 col-lg-7 pl-50 pl-md-15 pl-xs-15 mt-md-10" : "col-12"}`}
                   >
                     <h2>Responsibilities</h2>
-                    {description.map((paragraph, index) => (
-                      <ul key={`${id}-description-${index}`}>
-                        <li>{paragraph}</li>
+                    {descriptionIntro && <p>{descriptionIntro}</p>}
+                    {description.length > 0 && (
+                      <ul className="responsibility-list">
+                        {description.map((paragraph, index) => (
+                          <li key={`${id}-description-${index}`}>{paragraph}</li>
+                        ))}
                       </ul>
-                    ))}
+                    )}
                   </div>
                 )}
               </div>
@@ -286,7 +294,9 @@ const ProjectDetailsContent = ({
                           {paragraph.title && (
                             <h3>{paragraph.title}</h3>
                           )}
-                          <p>{renderFormattedText(paragraph.text)}</p>
+                          {paragraph.text && (
+                            <p>{renderFormattedText(paragraph.text)}</p>
+                          )}
                           {paragraph.image && (
                             <div className="project-result-media">
                               <Image

@@ -1,19 +1,19 @@
 [
   {
     "id": 1,
-    "thumb": "1.jpg",
-    "thumbFull": "1-full.jpg",
+    "thumb": "1.png",
+    "thumbFull": "1-full.jpeg",
     "tags": ["Fanpage"],
-    "title": "Built and managed a sports Fanpage reaching 10K followers in 4 months",
+    "title": "Built and managed two sports Facebook Pages, reaching 21K and 14K followers in 10 months.",
     "details": {
       "infoItems": [
         {
           "label": "Date",
-          "value": "4 months"
+          "value": "10 months"
         },
         {
           "label": "Followers",
-          "value": "10825"
+          "value": "21.131 & 14.670"
         },
         {
           "label": "Field",
@@ -36,7 +36,11 @@
           "heading": "Results",
           "items": [
             {
-              "text": "Reached 10,000 followers in just over 3 months.<br />Achieved an average of 15M+ monthly views on the Fanpage.",
+              "text": "For Fanpage 1 (FoxScore – Bảng Tin Bóng Đá): Built and developed the sports news Facebook Page, growing it from 5K to 21K followers in 10 months. <br />Achieved <strong>an average of 10M+ monthly views</strong> on the Facebook Page.",
+              "image": "r-9.jpg"
+            },
+            {
+              "text": "Grew the second Facebook Page, <strong>FoxScore – Góc Bóng Đá, to 14K followers in 10 months (100% organic).</strong><br />Achieved <strong>an average of 10M+ monthly views</strong> on the Facebook Page.",
               "image": "r-3.jpg"
             },
             {
@@ -54,6 +58,10 @@
             {
               "text": "Created visual materials for content initiatives, minigames, and events, ensuring consistency with brand guidelines.",
               "image": "r-7.jpg"
+            },
+            {
+              "text": "Proficient in leveraging AI tools to improve productivity, create content, design visuals, and automate workflows.",
+              "image": "r-8-2.jpg"
             }
           ]
         },
@@ -63,10 +71,6 @@
             {
               "text": "Built and developed a YouTube channel (Oct 2025 – Apr 2026), achieving over 3 million views and 4,000 followers through short-form sports news content.",
               "image": "r-8.jpg"
-            },
-            {
-              "text": "Built and developed a secondary sports news Fanpage, growing from 7,000 to 15,000 followers while achieving an average of over 15 million monthly views.",
-              "image": "r-9.jpg"
             }
           ]
         }
@@ -235,25 +239,27 @@
       "infoItems": [
         {
           "label": "Brand",
-          "value": "Thegioididong"
+          "value": "Deonatulle"
         },
         {
-          "label": "Role",
-          "value": "SEO Content+"
+          "label": "Origin",
+          "value": "Japan"
         },
         {
-          "label": "Content Type",
-          "value": "Top lists, Definitions, Q&A"
+          "label": "Target customers",
+          "value": "Mid- to high-end segment"
         }
       ],
       "date": "4 months",
       "followers": "10825",
       "field": "Sports",
       "postingFrequency": "3–4 posts/day",
+      "descriptionIntro": "Developed a communication project for Deonatulle deodorant:",
       "description": [
-        "Conducted in-depth keyword research using tools such as Ahrefs and Google Trends to identify high-search-volume opportunities.",
-        "Developed structured content outlines based on primary and secondary keywords; produced high-quality.",
-        "Designed visual assets (images, thumbnails); reviewed, published content, and implemented on-page SEO to enhance performance"
+        "Built and managed two main social channels (Facebook, TikTok) for product promotion",
+        "Designed marketing materials and brand logo",
+        "Created TikTok content, achieving videos with up to 1.2 million views",
+        "Participated in product photoshoots with a dynamic concept aligned with brand positioning"
       ],
       "detailSections": [
         {
@@ -373,11 +379,6 @@
     "tags": ["Tiktok"],
     "title": "Personal Project: TikTok Affiliate (~7M VND revenue)",
     "details": {
-      "client": "Vico Fresh",
-      "date": "12 June, 2024",
-      "followers": "86K followers",
-      "field": "Fresh food retail",
-      "postingFrequency": "Daily content",
       "description": [
         "Built and developed a TikTok affiliate channel focused on unboxing and product reviews.",
         "Collaborated with brands to receive products; handled end-to-end production including scripting, setup, filming, editing, and voice-over.",
@@ -399,6 +400,18 @@
             {
               "text": "Achieved up to 7M VND/month in affiliate revenue.",
               "image": "3-dd.jpg"
+            }
+          ]
+        },
+        {
+          "heading": "Additional:",
+            "items": [
+            {
+              "text": "Built two AI-powered TikTok fashion affiliate channels, achieving 90K+ views on viral videos and generating over 14M VND in revenue per channel.",
+              "image": "4-dd.jpg"
+            },
+            {
+              "image": "5-dd.jpg"
             }
           ]
         }
